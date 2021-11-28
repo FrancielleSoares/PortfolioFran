@@ -1,2 +1,2 @@
-# PortifolioFran
-Portfólio da Francielle S. R. Oliveira
+# PortfolioFran
+Portfólio - Francielle S. R. Oliveira
