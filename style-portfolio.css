@@ -3,16 +3,41 @@
     margin: 0;
 }*/
 
-#container {
-width: 200px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.m-40 {
-    margin: 40px;
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 2rem 5rem;
 }
 
-h1 {
-    color: blue;
-    font-size: 60px;
-    background: gray;
+.gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #F0F8FF, #836FFF, #8B008B,#363636, #D2691E, #CD853F, #FFFACD);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
