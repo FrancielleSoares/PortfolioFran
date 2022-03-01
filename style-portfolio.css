@@ -18,6 +18,7 @@
     padding: 2rem 5rem;
 }
 
+/*---------background---------*/
 .gradient {
     display: flex;
     align-items: center;
@@ -41,3 +42,4 @@
         background-position: 0% 50%;
     }
 }
+/*--------------*/
