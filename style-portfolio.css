@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(45deg, #F0F8FF, #836FFF, #8B008B,#363636, #D2691E, #CD853F, #FFFACD);
+    background: linear-gradient(45deg, #F0F8FF, #836FFF, #8B008B,#363636, #D2691E, #c79562, #FFFACD);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
 }
